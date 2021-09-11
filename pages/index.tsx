@@ -12,13 +12,15 @@ export default function Home(): ReactElement {
   const quicklinks: Record<string, string>[] = [
     { name: "OpenSea", url: "https://opensea.io/collection/lootproject" },
     { name: "Synthetic Loot", url: "/synthloot" },
+    { name: "More Loot", url: "/moreloot" },
     {
       name: "Twitter",
       url: "https://twitter.com/lootproject",
     },
     {
       name: "Contract",
-      url: "https://etherscan.io/address/0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7",
+      url:
+        "https://etherscan.io/address/0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7",
     },
   ];
 
